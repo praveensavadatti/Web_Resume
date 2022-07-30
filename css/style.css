@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: black;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    background: rgb(212, 206, 206);
+    margin-bottom: 1.25rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: rgb(231, 145, 105);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.section {
+    margin-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    text-align: right;
+    color: blue;    
+}
+
+button{
+    border: 0;
+    height: 30px;
+}
+
+
+section + section{
+    margin-top: 1rem;
+}
+
+
+
+.event + .event {
+    padding-top: 1rem;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.content {
+    border-left: 1px solid black;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.content .para {
+    margin-bottom: 1rem;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 4rem ;
+}
+
+.skill {
+    margin-left: 1.5rem;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-gap: 1rem;
+}
+
+.list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.background {
+    /* height: 100%; */
+    width: 1000px;
+    background-image: url("/images/download.jfif");
+ }  
+
+ .but {
+    margin-right: 30px;
+    margin-left: 10px;
+ }
